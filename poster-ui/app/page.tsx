@@ -157,7 +157,7 @@ export default function Home() {
           
         </div><address className="text-sm not-italic" title={userAddress}>
   {shortAddr(userAddress)}
-</address>
+</address> <address className="break-all text-sm not-italic">{userAddress}</address>
 
         <div className="space-y-2 rounded border p-4">
           <h2 className="font-semibold">Новый пост</h2>
