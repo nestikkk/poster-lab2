@@ -203,7 +203,7 @@ export default function Home() {
               <p>{p.content}</p>
               <p className="text-sm text-zinc-500">
                 Тег: {tagLabel(p.tagHash)} · Автор:{" "}
-<span title={p.user}>{shortAddr(p.user)}</span>
+<span className="break-all">{p.user}</span>
               </p>
             </div>
           ))}
