@@ -1,0 +1,25 @@
+# Портативные инструменты (Git, Node.js) — не коммитим
+tools/
+
+# Зависимости
+node_modules/
+
+# Секреты
+.env
+.env.*
+env.ps1
+
+# Сборка Hardhat
+cache/
+artifacts/
+ignition/deployments/
+
+# Сборка Next.js
+.next/
+out/
+build/
+
+# Системное
+*.log
+.DS_Store
+Thumbs.db
